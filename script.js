@@ -21,7 +21,7 @@ function updateClock() {
     hourEl.innerHTML = h
     minuteEl.innerHTML = m
     secondEl.innerHTML = s
-    ampmEl, (innerHTML = ampm)
+    ampmEl.innerHTML = ampm
 
     setTimeout (() => {
         updateClock()
