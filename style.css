@@ -9,6 +9,7 @@ body{
     align-items: center;
     height: 100vh;
     justify-content: center;
+    overflow: hidden;
 }
 
 .clock{
@@ -17,6 +18,7 @@ body{
 
 .clock div{
     margin: 0.1em;
+    position: relative;
 }
 
 .clock span{
@@ -39,3 +41,15 @@ body{
     background-color: #084245;
     color: white;
 }
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #084245;
+    color: white;
+}
+
